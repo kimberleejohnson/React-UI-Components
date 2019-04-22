@@ -2,7 +2,8 @@
 
 /* Header container wraps around Image thumbnail, header title and header content  */
 .header-container {
-    max-width: 100%; 
+    /* Setting this max-width so everything fits */
+    max-width: 80%; 
     height: auto; 
     display: flex; 
 }
@@ -32,9 +33,4 @@
 .timestamp {
     color: grey; 
     padding-left: 1%; 
-}
-
-.header-content {
-    /* display: flex;  */
-    /* flex-direction: column;  */
 }

@@ -3,15 +3,30 @@
 /* Card container holds my card banner and card content */
 
 .card-container {
-
+    padding-left: 50px; 
 }
 
 .card-banner-image {
     width: 520px; 
     height: 280px; 
+    border-top-right-radius: 2%; 
+    border-top-left-radius: 2%; 
+    margin-bottom: 0px; 
 }
 
 a {
     text-decoration: none; 
     color: black; 
+}
+
+.card-link {
+    color: grey; 
+}
+
+.card-content {
+    border-bottom-right-radius: 2%; 
+    border-bottom-left-radius: 2%; 
+    margin-right: 30px; 
+    margin-top: 0px; 
+    border: 1px solid grey; 
 }
