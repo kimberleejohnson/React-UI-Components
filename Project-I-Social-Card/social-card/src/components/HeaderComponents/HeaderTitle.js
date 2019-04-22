@@ -5,9 +5,10 @@ import './Header.css';
 
 const HeaderTitle = () => {
     return (
-    <div class="HeaderText">
-        <h2 class="HeaderTitle">Lambda School</h2>
-        <p class="LambdaHandle">@LambdaSchool</p>
+    <div class="header-text">
+        <h2 class="header-title">Lambda School</h2>
+        <p class="lambda-handle">@LambdaSchool</p>
+        <p class="timestamp">22 April</p>
     </div>
     ); 
 }; 

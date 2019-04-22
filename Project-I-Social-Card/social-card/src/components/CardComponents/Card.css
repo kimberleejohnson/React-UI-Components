@@ -1,1 +1,17 @@
 /* All styles for your Card Components live here */
+
+/* Card container holds my card banner and card content */
+
+.card-container {
+
+}
+
+.card-banner-image {
+    max-width: 100%; 
+    height: auto; 
+}
+
+a {
+    text-decoration: none; 
+    color: black; 
+}

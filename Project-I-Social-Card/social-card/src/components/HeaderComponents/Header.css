@@ -1,1 +1,33 @@
 /* All styles for your header Components live here */
+
+/* Header container wraps around Image thumbnail, header title and header content  */
+.header-container {
+    max-width: 100%; 
+    height: auto; 
+    display: flex; 
+    flex-wrap: wrap;  
+}
+
+.image-thumbnail {
+    max-width: 20%; 
+    height: auto; 
+}
+
+.header-text {
+    display: flex; 
+    flex-direction: row; 
+    align-items: top; 
+}
+
+.header-title {
+
+}
+
+.lambda-handle {
+
+}
+
+.header-content {
+    display: flex; 
+    flex-direction: column; 
+}

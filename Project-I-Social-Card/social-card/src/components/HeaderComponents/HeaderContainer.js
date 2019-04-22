@@ -1,5 +1,6 @@
 import React from 'react';
 import './Header.css';
+import '../../../src/App.css'; 
 
 
 // HeaderContainer needs to import all the Header components I need
