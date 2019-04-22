@@ -10,6 +10,8 @@
 .image-thumbnail {
     width: 50px; 
     height: 50px;   
+    padding-top: 2%; 
+    padding-right: 1%; 
 }
 
 .header-text {
@@ -19,14 +21,19 @@
 }
 
 .header-title {
-
+    padding-right: 2%; 
 }
 
 .lambda-handle {
+    padding-right: 2%; 
+    color: grey; 
+}
 
+.timestamp {
+    color: grey; 
 }
 
 .header-content {
-    display: flex; 
-    flex-direction: column; 
+    /* display: flex;  */
+    /* flex-direction: column;  */
 }
