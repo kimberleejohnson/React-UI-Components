@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './components/HeaderComponents/HeaderContainer'; 
 
 // Importing my header container 
 import HeaderContainer from './components/HeaderComponents/HeaderContainer'; 
@@ -20,6 +21,10 @@ const App = () => {
           inside of this file in order to make them work.
         </strong>
       </p>
+
+      <div className="App">
+      <HeaderContainer />
+      </div>
     </div>
   );
 };
