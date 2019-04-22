@@ -5,18 +5,17 @@
     max-width: 100%; 
     height: auto; 
     display: flex; 
-    flex-wrap: wrap;  
 }
 
 .image-thumbnail {
-    max-width: 20%; 
-    height: auto; 
+    width: 50px; 
+    height: 50px;   
 }
 
 .header-text {
     display: flex; 
     flex-direction: row; 
-    align-items: top; 
+    align-items: baseline; 
 }
 
 .header-title {
