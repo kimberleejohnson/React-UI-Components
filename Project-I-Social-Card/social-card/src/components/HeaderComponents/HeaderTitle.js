@@ -8,7 +8,7 @@ const HeaderTitle = () => {
     <div class="header-text">
         <h2 class="header-title">Lambda School</h2>
         <p class="lambda-handle">@LambdaSchool</p>
-        <p class="timestamp">22 apr</p>
+        <p class="timestamp"> 22 apr</p>
     </div>
     ); 
 }; 
