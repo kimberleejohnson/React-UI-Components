@@ -13,10 +13,12 @@ import CardContent from './CardContent';
 
 const CardContainer = () => {
     return (
-        <div className="card-container">
-        <CardBanner /> 
-        <CardContent /> 
-        </div>
+        <a href="https://www.reactjs.org">
+            <div className="card-container">
+            <CardBanner /> 
+            <CardContent /> 
+            </div>
+        </a>
     );
 }
 
