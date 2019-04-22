@@ -5,6 +5,7 @@ import './Card.css';
 
 // Card banner photo 
 import CardBanner from './CardBanner'; 
+import CardContent from './CardContent';
 
 // Card copy 
 
@@ -14,6 +15,7 @@ const CardContainer = () => {
     return (
         <div className="card-container">
         <CardBanner /> 
+        <CardContent /> 
         </div>
     );
 }
