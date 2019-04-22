@@ -4,6 +4,7 @@ import './components/HeaderComponents/HeaderContainer';
 
 // Importing my header container 
 import HeaderContainer from './components/HeaderComponents/HeaderContainer'; 
+import CardContainer from './components/CardComponents/CardContainer';
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
 
       <div className="App">
       <HeaderContainer />
+      <CardContainer /> 
       </div>
     </div>
   );

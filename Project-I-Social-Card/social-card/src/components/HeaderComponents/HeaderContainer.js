@@ -6,21 +6,21 @@ import './Header.css';
 
 // Icon 
 import ImageThumbnail from './ImageThumbnail'; 
+
+// Header title 
 import HeaderTitle from './HeaderTitle';
 
-// Header text wrapper
-
-// Header text title 
-
-// Header text body 
+// Header body 
+import HeaderContent from './HeaderContent';
 
 // Setting up my function to display 
 
 const HeaderContainer = () => {
     return (
-        <div className= "card-container">
+        <div className= "header-container">
         <ImageThumbnail /> 
         <HeaderTitle /> 
+        <HeaderContent/> 
         </div>
     ); 
 }; 
