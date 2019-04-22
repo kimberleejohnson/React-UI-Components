@@ -6,6 +6,7 @@ import './Header.css';
 
 // Icon 
 import ImageThumbnail from './ImageThumbnail'; 
+import HeaderTitle from './HeaderTitle';
 
 // Header text wrapper
 
@@ -19,6 +20,7 @@ const HeaderContainer = () => {
     return (
         <div className= "card-container">
         <ImageThumbnail /> 
+        <HeaderTitle /> 
         </div>
     ); 
 }; 
