@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
 
+// Importing my header container 
+import HeaderContainer from './components/HeaderComponents/HeaderContainer'; 
+
 const App = () => {
   return (
     <div>
