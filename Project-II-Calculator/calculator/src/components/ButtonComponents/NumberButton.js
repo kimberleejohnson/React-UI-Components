@@ -5,8 +5,8 @@ import './Button.css';
 
 const NumberButton = props => {
     return (
-        <div className="number-botton">
-            <p>{props.numberButtonProp.value}</p>
+        <div className="number-button">
+            <p className="number-value">{props.numberButtonProp.value}</p>
         </div>
     )
 }

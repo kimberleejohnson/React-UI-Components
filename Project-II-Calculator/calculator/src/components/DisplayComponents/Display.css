@@ -5,9 +5,9 @@
     border-bottom: 2px solid grey; 
 }
 
-p {
+.display-value {
     text-align: right;
     padding-right: 2%; 
     font-size: 80px; 
     color: white; 
-}
+} 
