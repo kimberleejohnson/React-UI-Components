@@ -20,3 +20,9 @@
     width: 300px; 
     background-color: blue; 
 }
+
+.operators-container {
+    align-self: right; 
+    width: 96px; 
+    background-color: green; 
+}
