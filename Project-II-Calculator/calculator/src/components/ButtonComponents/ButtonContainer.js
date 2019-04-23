@@ -2,16 +2,23 @@ import React from 'react';
 
 import ActionButton from './ActionButton'; 
 import NumbersContainer from './NumbersContainer'; 
-import OperatorsContainer from './OperatorsContainer'; 
 
 import './Button.css';
+
+const clear= {
+  text: "clear"
+}
+
+const zero= {
+  text: "0"
+}
 
 const ButtonContainer = () => {
     return (
       <div className="button-container">
-        <ActionButton />
+        <ActionButton actionButtonProp={clear} />
         <NumbersContainer /> 
-        <ActionButton />  
+        <ActionButton actionButtonProp={zero}/>  
       </div>
     );
   };
