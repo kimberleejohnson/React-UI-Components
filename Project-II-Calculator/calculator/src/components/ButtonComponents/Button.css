@@ -1,3 +1,7 @@
+.button-container {
+    height: 416px; 
+}
+
 .action-button {
     width: 300px; 
     height: 70px; 
@@ -9,4 +13,10 @@
     color: black; 
     text-align: center; 
     font-size: 16px; 
+}
+
+.numbers-container {
+    height: 278px; 
+    width: 300px; 
+    background-color: blue; 
 }
