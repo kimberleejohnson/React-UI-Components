@@ -18,28 +18,31 @@
 .numbers-container {
     height: 278px; 
     width: 300px; 
-    background-color: blue; 
+    background-color: white; 
     display: flex; 
     flex-wrap: wrap;
-
-    /* flex-direction: row; 
-    flex-wrap: wrap;   */
 }
 
 .number-button {
-    width: 80px; 
-    height: 20px; 
+    width: 100px; 
+    height: 93px; 
     border: 1px solid grey; 
-    margin: 10px; 
-    /* padding: 20%;   */
-}
-
-.nunmber-value {
-    font-size: 100px; 
+    /* margin: 10px;  */
+    text-align: center; 
+    padding-top: 5%; 
+    font-size: 50px; 
 }
 
 .operators-container {
     align-self: right; 
     width: 96px; 
-    background-color: green; 
+    background-color: maroon; 
+}
+
+.operator-box {
+    height: 84px; 
+    border: 1px solid grey; 
+    color: white; 
+    text-align: center; 
+    font-size: 50px; 
 }

@@ -23,7 +23,7 @@ const equals = {
 
 function Operators () {
     return (
-        <div>
+        <div className="operators-container">
             <Operator operatorProp={divide} />
             <Operator operatorProp={multiply} />
             <Operator operatorProp={minus} />

@@ -6,7 +6,7 @@ import './Button.css';
 const NumberButton = props => {
     return (
         <div className="number-button">
-            <p className="number-value">{props.numberButtonProp.value}</p>
+            <p>{props.numberButtonProp.value}</p>
         </div>
     )
 }
