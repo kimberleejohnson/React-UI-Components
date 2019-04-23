@@ -20,15 +20,18 @@
     width: 300px; 
     background-color: blue; 
     display: flex; 
-    flex-direction: row; 
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+
+    /* flex-direction: row; 
+    flex-wrap: wrap;   */
 }
 
 .number-button {
     width: 80px; 
     height: 20px; 
     border: 1px solid grey; 
-    padding: 20%;  
+    margin: 10px; 
+    /* padding: 20%;   */
 }
 
 .nunmber-value {

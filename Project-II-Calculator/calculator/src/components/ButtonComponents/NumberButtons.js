@@ -39,7 +39,7 @@ const nine = {
 
 function NumberButtons () {
     return (
-        <div>
+        <div className="numbers-container">
             <NumberButton numberButtonProp={one} />
             <NumberButton numberButtonProp={two} />
             <NumberButton numberButtonProp={three} />
