@@ -1,10 +1,11 @@
 import React from 'react';
 import './Button.css';
+import Operators from './Operators'; 
 
 const OperatorsContainer = () => {
     return (
       <div className="operators-container">
-        <p>Test!</p>
+        <Operators /> 
       </div>
     );
   };
