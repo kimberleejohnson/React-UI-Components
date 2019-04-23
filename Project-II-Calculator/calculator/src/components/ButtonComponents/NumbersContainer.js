@@ -1,10 +1,11 @@
 import React from 'react';
 import './Button.css';
+import NumberButtons from './NumberButtons'; 
 
 const NumbersContainer = () => {
     return (
       <div className="numbers-container">
-        <p>Test!</p>
+        <NumberButtons /> 
       </div>
     );
   };

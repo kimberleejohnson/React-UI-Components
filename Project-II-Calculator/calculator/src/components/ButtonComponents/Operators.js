@@ -25,6 +25,10 @@ function Operators () {
     return (
         <div>
             <Operator operatorProp={divide} />
+            <Operator operatorProp={multiply} />
+            <Operator operatorProp={minus} />
+            <Operator operatorProp={add} />
+            <Operator operatorProp={equals} />
         </div>
     ); 
 }
