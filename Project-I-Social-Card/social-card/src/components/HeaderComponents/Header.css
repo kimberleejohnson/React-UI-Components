@@ -1,1 +1,37 @@
 /* All styles for your header Components live here */
+
+/* Header container wraps around Image thumbnail, header title and header content  */
+.header-container {
+    /* Setting this max-width so everything fits */
+    max-width: 100%; 
+    height: auto; 
+    display: flex; 
+}
+
+.image-thumbnail {
+    width: 50px; 
+    height: 50px;   
+    padding-top: 2%; 
+    padding-right: 1%; 
+}
+
+.header-text {
+    display: flex; 
+    flex-direction: row; 
+    align-items: baseline; 
+}
+
+.header-title {
+    padding-right: 0%; 
+}
+
+.lambda-handle {
+    padding-right: 1%; 
+    padding-left: 1%; 
+    color: grey; 
+}
+
+.timestamp {
+    color: grey; 
+    margin-left: 1%; 
+}

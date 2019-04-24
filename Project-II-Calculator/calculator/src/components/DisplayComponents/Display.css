@@ -1,0 +1,13 @@
+.display-container {
+    width: 397px; 
+    height: 80px; 
+    background-color: darkgrey; 
+    border-bottom: 2px solid grey; 
+}
+
+.display-value {
+    text-align: right;
+    padding-right: 2%; 
+    font-size: 80px; 
+    color: white; 
+} 
